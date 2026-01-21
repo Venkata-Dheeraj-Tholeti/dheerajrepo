@@ -246,3 +246,11 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
 	... 8 common frames omitted
 2026-01-21 11:22:15 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s105ms733µs700ns).
+2026-01-21 12:04:52 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m36s244ms962µs200ns).
+2026-01-21 12:14:06 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m44s214ms71µs201ns).
+2026-01-21 12:49:26 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m50s934ms638µs900ns).
+2026-01-21 13:22:25 INFO  [RMI TCP Connection(131)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-01-21 13:22:25 INFO  [RMI TCP Connection(131)-127.0.0.1] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9292"]
+2026-01-21 13:22:25 INFO  [RMI TCP Connection(131)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-21 13:22:25 INFO  [RMI TCP Connection(131)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-21 13:22:25 INFO  [RMI TCP Connection(131)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
